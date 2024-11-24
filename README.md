@@ -92,7 +92,7 @@ git commit -am "Primeiro Commit"
 
 ## Instalar e configurar o pacote laravel/ui:
 
-```
+```bash
 composer require laravel/ui
 php artisan ui vue --auth
 npm install
