@@ -106,3 +106,13 @@ git remote add origin https://github.com/AlbertoDevAspNet/Laravel11.git
 git branch -am main
 git push -u origin main
 ```
+
+### Depois de instalado pastas acima ,execute as alterações no projeto
+
+nas linhas abaixo:
+
+// Altere Linha 85 do arquivo config/app.php para: arquivo env.php
+'locale' => 'pt_BR'
+
+// Para versões 11.x altere a linha 8 do arquivo .env
+APP_LOCALE=pt_BR
