@@ -98,3 +98,11 @@ php artisan ui vue --auth
 npm install
 npm run build (ou vite build -watch
 ```
+
+## Comandos do git
+
+```bash
+git remote add origin https://github.com/AlbertoDevAspNet/Laravel11.git
+git branch -am main
+git push -u origin main
+```
