@@ -116,3 +116,11 @@ nas linhas abaixo:
 
 // Para versões 11.x altere a linha 8 do arquivo .env
 APP_LOCALE=pt_BR
+
+## Configuração do fuso horário do Brasil
+
+Modificar no arquivo `.env` o valor da variável àpp_timezone`para Àmerica/Sao_Paulo`:
+
+```
+APP_TIMEZONE=America/Sao_Paulo
+```
